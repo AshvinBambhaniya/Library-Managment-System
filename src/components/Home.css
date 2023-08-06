@@ -1,0 +1,53 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    height: 628px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('https://c4.wallpaperflare.com/wallpaper/148/392/948/1920x1080-px-books-interior-design-interiors-knowledge-library-shelves-anime-pokemon-hd-art-wallpaper-preview.jpg') no-repeat center center/cover;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.69;
+}
+
+#home h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+
+}
+
+#btnforBook {
+    font-family: 'Bree Serif', serif;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #home {
+        height: auto;
+        margin-top: 9rem;
+    }
+
+    #home p {
+        font-size: 1.1rem;
+    }
+
+    #home::before {
+        height: 115%;
+    }
+}

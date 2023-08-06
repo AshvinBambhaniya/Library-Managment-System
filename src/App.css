@@ -32,7 +32,28 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* #logo {
+  margin: 0px 14px;
+  border-radius: 25px;
+  height: 49px;
+} */
+#logo {
+  margin: 0px 14px;
+  /* border-radius: 25px; */
+  height: 49px;
+  width: 49px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  #logo {
+    margin: 0px 0px;
   }
 }
